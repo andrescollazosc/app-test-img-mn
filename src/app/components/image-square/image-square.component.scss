@@ -1,0 +1,48 @@
+.image-container {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid dodgerblue;
+}
+
+.side-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image {
+    width: 84px;
+    height: 97px;
+    padding: 0 5px;
+}
+
+.down-up-image {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.image-text {
+    width: 168px;
+    height: 194px;
+}
+
+.image-text img {
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
